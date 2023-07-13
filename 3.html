@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 3:</title>
+  <style>
+    body{
+      box-sizing: border-box;
+      max-width: 1200px;
+      width: 70%;
+      margin: auto;
+    }
+    .nav{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* justify-content: space-evenly; */
+      
+    }
+    nav > button{
+       padding-top: 8px;
+       padding-bottom: 23px;
+       padding-left: 23px;
+       padding-right: 55px;
+       width:90px;
+       height: 30px;
+       border-radius: 4px;
+       background-color: #20f17e;
+       justify-self: end;
+       margin-top: 10px;
+       font-weight: bold;
+       border: none;
+      
+    }
+    div.navbar{
+      display: inline-block;
+      font-size: 18px;
+      margin-top: 15px;
+      font-weight: 400;
+      /* margin-right: 30px; */
+    }
+    
+    nav > div > a{
+      text-decoration: none;
+      margin: 5px 14px;
+      color: black;
+      justify-self: center;
+      margin-top: 20px;
+      margin-left: 34px;
+      margin-right: 25px
+      
+    }
+    div .section1{
+      margin-right: 40px;
+      align-items: center;
+    }
+    .navbar > a:hover{
+       color: #20f17e;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-items: center;
+
+    }
+    p{
+      text-align: start;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        /* text-align: center; */
+      }
+    .section2{
+      background-color: yellow;
+      width: 478px;
+      margin-left: 40px;
+    }
+    .mainimg{
+      width: 400px;
+      /* background-color: yellow; */
+    }
+    .subsection{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: #2b1e16;
+      margin-top: 20px;
+      height: 626px;
+      width: 1041px;
+  
+    }
+    .subsection1 >h2{
+      color: white;
+    }
+    .subsection1 > p{
+      color:rgb(147, 130, 130);
+    }
+    .section1 > button{
+      background-color: black;
+      color: white;
+      padding: 4px 40px;
+      font-weight: 500px;
+    }
+
+   
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <img src="image/healthy food logo.png" alt="Logo" width="60px">
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <button>Login</button>
+  </nav>
+  <section class="container">
+    <div class="section1">
+      <h1>Healthy Food</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quae laborum necessitatibus exercitationem omnis. Velit libero ducimus ipsum, quo neque recusandae beatae ex excepturi molestias consequuntur modi, laborum assumenda. Voluptas officia aspernatur adipisci, consequatur non animi ad tenetur sed quod molestiae quia. Sapiente asperiores unde adipisci nulla placeat, atque reprehenderit?</p>
+      <button type="button">Read More</button>
+    </div>
+    <div class="section2">
+      <img src="image/vegetable3.jpg" alt="" class="mainimg">
+    </div>
+  </section>
+  <div class="subsection">
+  <section class="subsection1">
+    <img src="image/question_3rd_1st-removebg-preview.png" alt="no minimum order">
+    <h2>No Minimum Order</h2>
+    <p>Order in for yourself or for the geroup, with no restrictions on order value</p>
+  </section>
+  <section class="subsection1">
+    <img src="image/question_3rd_2nd-removebg-preview.png" alt="Live order tracking">
+    <h2>Live Oredr Tracking</h2>
+    <p>Know where your order its all times, from the restaurant to your doorstep</p>
+  </section>
+  <section class="subsection1">
+    <img src="image/qusetion_3rd_3rd-removebg-preview.png" alt="Lightning Fast delivery" height="500px">
+    <h2>Lightning-Fast Delivery</h2>
+    <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+  </section>
+</div>
+</body>
+</html>

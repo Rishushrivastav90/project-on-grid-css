@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <style>
+       body{
+      box-sizing: border-box;
+      max-width: 1200px;
+      width: 70%;
+      margin: auto;
+       }
+    .nav{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr); 
+       /* max-width: 1200px; */
+       /* width: 70%; */
+       /* margin: auto; */
+       
+
+
+    }
+    .nav > img{
+        width: 50px;
+    }
+    .nav > div > a{
+        display: inline-block;
+        text-decoration: none;
+        margin:  10px;
+        color: black;  
+        font-size: 20px;
+        font-weight: 400px;
+    }
+
+    .nav  button{
+      width: 103px;
+      height: 30px;
+      margin-top: 15px;
+      background-color: rgb(47, 255, 54);
+      font-weight: bold;
+      border: none;
+      border-radius: 4px;
+      margin-left: 196px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        width: 100%;
+
+    }
+   .img{
+    width: 91%;
+    background-color: yellow;
+   }
+   .img img{
+    width: 300px;
+   }
+   .text{
+    width: 81%;
+    margin-left: 28px;
+    align-items: center;
+    align-self: start;
+   }
+   .text h1{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 34px;
+   }
+   .text p {
+    font-size: 15px;
+    margin-bottom: 34px;
+    align-self: start;
+   }
+   .text button{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border : none;
+    align-self: start;
+    font-size: 20px;
+   }
+   .subcontainer{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 430px;
+    background-color:#2b1e16 ;
+    width: 96%;
+    margin-bottom: 10px;
+   }
+   .subcontainer1> h1{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 10px 10px;
+
+   }
+   .subcontainer1 p {
+    color: rgb(150, 104, 104);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: 0px 10px;
+   }
+   .subcontainer-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 30px;
+   }
+   .box{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 75px;
+   }
+   .box img{
+    width: 292px;
+    height: 183px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+    .box h1{
+        font-size: 25px;
+        text-align: center;
+        margin: 0px 35px;
+        margin-bottom: 10px;
+    }
+    .box p {
+        text-align: cente;
+        margin: 0px 40px;
+    }
+    .subcontainer-2{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         background-color:#2b1e16;
+         width: 1119px;
+         margin-top: 50px;
+    }
+    .box1 h2{
+        margin-bottom:10px;
+        color: white;
+        
+    }
+    .box1 a{
+        color: rgb(165, 156, 156);
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        
+    }
+    .box1 img{
+        width: 250px;
+        height: 250px;
+        margin-top:30px
+    }
+    .box2{
+        text-align: center;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 4;   
+        font-size: 40px;
+     }
+
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <img src="image/healthy food logo.png" alt="Logo">
+         <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+         </div>
+         <button>Login</button>
+    </nav>
+    <section class="container">
+        <div class="text">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci et deserunt maxime labore molestiae, temporibus fuga autem, nemo dignissimos nam commodi? Obcaecati dolorem explicabo, nostrum ab, iusto consequuntur ducimus dicta esse error totam perspiciatis amet hic numquam voluptatum, nisi tenetur repudiandae! Enim eum fugiat eius placeat sint distinctio facere quod!</p>
+            <button>Read More</button>
+        </div>
+        <div class="img">
+            <img src="image/vegetables 3.jpg" alt="Image" >
+        </div>
+    </section>
+    <section class="subcontainer">
+        <div class="subcontainer1">
+            <img src="image/question_3rd_1st-removebg-preview.png" height="250px" alt="">
+            <h1>No Minimum Order</h1>
+            <p>Oreder in for yourself or for thr group with no restriction on order value</p>
+        </div>
+        <div class="subcontainer1">
+            <img src="image/question_3rd_2nd-removebg-preview.png" height="250px" alt="" >
+            <h1>Live Order Tracking</h1>
+            <p>Know Where your order is at all these from the restraurant to your desktop</p>
+        </div>
+        <div class="subcontainer1">
+            <img src="image/question_3rd_2nd-removebg-preview.png" alt="Live order tracking" height="250px">
+            <h1>Lightning-Fast Delivery</h1>
+            <p>Experiences Swiggy's superfast delivery for food delivereed fresh & on time</p>
+        </div>
+    </section>
+    <section class="subcontainer-1">
+        <div class="box">
+            <img src="image/online food order.jpg" width="90px">
+            <h1>Order Online</h1>
+            <p>Stay Home and order to your door Step</p>
+        </div>
+        <div class="box">
+            <img src="image/dinning.jpg" alt="">
+            <h1>On-site Dining</h1>
+            <p>View the city favourite dining venus</p>
+        </div>
+        <div class="box">
+            <img src="image/club.jpg" alt="">
+            <h1>Nightlife & clubs</h1>
+            <p>Explore the city's top nightlife outlets &Book tablets</p>
+        </div>
+    </section>
+    <section class="subcontainer-2">
+        <div class="box1">
+            <img src="image/healthy food logo.png" style="mix-blend-mode:multiply" alt="">
+        </div>
+        <div class="box1">
+            <h2>Navigation Links</h2>
+             <a href="#">Home</a>
+             <a href="#">About</a>
+             <a href="#">Contact</a>
+             <a href="#">Login</a>
+        </div>
+        <div class="box1">
+            <h2>Learn More</h2>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+        </div>
+        <div class="box2">
+            <p>© Copyright All rights Reserved</p>
+        </div>
+    </section>
+</body>
+</html>

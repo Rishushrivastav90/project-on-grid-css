@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 6</title>
+    <style>
+        h1{
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+        .timetable {
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            padding: 10px;
+            background-color: rgb(128, 223, 254);
+            height: 600px;
+            
+        }
+        .timebox{
+            border: 2px dashed black;
+            color: black;
+            font-weight: bold;
+            background-color: rgb(255, 122, 39);
+            padding: 40px 0px;
+        }
+        /* .timebox{
+            border: 3px dashed black;
+            display: grid; 
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            font-weight: bold;
+            background-color: rgb(229, 125, 125);
+            text-align: center;
+
+        }*/
+        .sub{
+            background-color: rgb(127, 222, 243);
+            border: 2px dashed black;
+            padding: 20px 5px;
+            text-align: center;
+        }
+        .lunch{
+            grid-column-start: 6;
+            grid-column-end:7 ;
+            background-color: rgb(250, 226, 66);
+            padding: 40px;
+            font-weight: bold;
+        }
+        .colspan2{
+            grid-column-start: 7;
+            grid-column-end: 9;
+            padding: 20px 10px;
+            background-color: lightgrey;
+        }
+        .colspan1{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            padding: 20px 10px;
+            background-color: lightgrey
+        }
+        .games{
+            background-color: green;
+            font-weight: bold;
+        }
+        div{
+            padding: 20px 5px;
+        border: 2px dotted black;
+        text-align: center;
+        background-color: #03c6c7;
+        }
+        
+    </style>
+</head>
+<body>
+          <h1>School Timetable</h1>
+        <div class="timetable">
+            <div class="timebox bold1">TIME</div>
+            <div class="timebox">08:00 AM - 09:00 AM</div>
+            <div class="timebox">09:00 AM - 10:00 AM</div>
+            <div class="timebox">10:00 AM - 11:00 AM</div>
+            <div class="timebox">11:00 AM - 12:00 PM</div>
+            <div class="timebox">12:00 PM - 02:00 PM</div>
+            <div class="timebox">02:00 PM - 03:00 PM</div>
+            <div class="timebox">03:00 PM - 04:00 PM</div>
+             
+            <div class="mondaysub sub bold height">Monday</div>
+            <div class=" height" >English</div>
+            <div class=" height" >Biology</div>
+            <div class=" height">Physics</div>
+            <div class=" height">Chemistry</div>
+            <div class="mondaysub sub lunch height">L</div>
+            <div class="mondaysub sub colspan2 height">Chemistry LAB</div>
+           
+            <div class="tuesdaysub sub bold">Tuesday</div>
+            <div class="tuesdaysub sub colspan1 biologylab height">Biology LAB</div>
+            <div class="height" >Physics</div>
+            <div class="height">Chemistry</div>
+            <div class="tuesdaysub sub lunch height">U</div>
+            <div class="height">English</div>
+            <div class="height">Biology</div>
+            
+            <div class="wednesday bold sub heigth">Wednesday</div>
+            <div class="height">English</div>
+            <div class="height">Biology</div>
+            <div class="height">Physics</div>
+            <div class="height">Chemistry</div>
+            <div class="wednesday bold sub lunch height">N</div>
+            <div class="wednesday bold sub colspan2 games height">Games</div>
+
+            <div class="tuesdaysub sub bold height">Thursday</div>
+            <div class="tuesdaysub sub colspan1 biologylab height">Biology LAB</div>
+            <div class="height">Physics</div>
+            <div class="height">Chemistry</div>
+            <div class="tuesdaysub sub lunch height">C</div>
+            <div class="height">English</div>
+            <div  class="height">Biology</div>
+
+            <div class="mondaysub sub bold height">Friday</div>
+            <div class="height">English</div>
+            <div class="height">Biology</div>
+            <div class="height">Physics</div>
+            <div class="height">Chemistry</div>
+            <div class="mondaysub sub lunch height">H</div>
+            <div class="mondaysub sub colspan2 height">Physics LAB</div>
+
+            <div class="saturdaysu sub  bold height">Saturday</div>
+            <div class="tuesdaysub sub  colspan1 biologylab height">Biology LAB</div>
+            <div  class="height">Physics</div>
+            <div class="height">Chemistry</div>
+            <div class="mondaysub  sub lunch height">Break</div>
+            <div class="wednesday  sub bold colspan2 games height">LET OFF</div>
+            
+        </div>
+
+    
+</body>
+</html>

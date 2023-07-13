@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+    <style>
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,250px);
+            gap: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid black;
+        }
+        .photo{
+            /* width: 20px; */
+        }
+        .photo1{
+            grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        }
+        .photo2{
+            grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        }
+        .photo3{
+            grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        }
+        .photo4{
+            grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        }
+        .photo5{
+            grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        }
+        .photo6{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        }
+        img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="photo photo1">
+            <img src="image/photo1.jpg" width="250px" alt="">
+        </div>
+        <div class="photo photo2">
+            <img src="image/phtoto2.jpg" width="250px" alt="">
+        </div>
+        <div class="photo photo3">
+            <img src="image/photo3.jpg" width="250px" alt="">
+        </div>
+        <div class="photo photo4">
+            <img src="image/photo4.jpg"width="250px"  alt="">
+        </div>
+        <div class="photo photo5">
+            <img src="image/photo5.jpg"width="250px"  alt="">
+        </div>
+        <div class="photo photo6">
+            <img src="image/photo6.jpg" width="250px" alt="">
+        </div>
+    </div>
+</body>
+</html>
